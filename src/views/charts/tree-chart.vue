@@ -8,7 +8,7 @@
 import TreeChart from '@/components/Charts/TreeChart'
 
 export default {
-  name: 'TreeChart',
+  name: 'OrgTreeChart',
   components: { TreeChart },
   mounted() {
   }
