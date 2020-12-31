@@ -29,6 +29,18 @@ const chartsRouter = {
       component: () => import('@/views/charts/mix-chart'),
       name: 'MixChart',
       meta: { title: 'Mix Chart', noCache: true }
+    },
+    {
+      path: 'gantt-chart',
+      component: () => import('@/views/charts/gantt-chart'),
+      name: 'gantt-chart',
+      meta: { title: 'Gantt Chart', noCache: true }
+    },
+    {
+      path: 'tree-chart',
+      component: () => import('@/views/charts/tree-chart'),
+      name: 'tree-chart',
+      meta: { title: 'Tree Chart', noCache: true }
     }
   ]
 }
