@@ -14,7 +14,7 @@
 import Vue2OrgTree from 'vue2-org-tree'
 
 export default {
-  name: 'TreeChart',
+  name: 'Vue2OrgTree',
   components: { Vue2OrgTree },
   data() {
     return {
