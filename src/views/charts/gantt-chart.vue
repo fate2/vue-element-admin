@@ -8,7 +8,7 @@
 import GanttChart from '@/components/Charts/GanttChart'
 
 export default {
-  name: 'GanttChart',
+  name: 'DHtmlxGanttChart',
   components: { GanttChart },
   mounted() {
   }
